@@ -234,3 +234,129 @@ ul li {
     margin: auto;
   }
 }
+
+
+
+/* ========================= */
+/* TABLET (max-width: 768px) */
+/* ========================= */
+@media (max-width: 768px) {
+
+  /* Secciones */
+  section {
+    width: 95%;
+    padding: 20px;
+  }
+
+  /* NAV */
+  nav ul li {
+    margin: 0 6px;
+  }
+
+  nav ul li a {
+    font-size: 16px;
+  }
+
+  /* Imágenes redondas */
+  .img-p img {
+    width: 180px;
+    height: 180px;
+  }
+
+  /* Galería Mailo */
+  .img-m {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  .img-m img {
+    width: 180px;
+    height: 180px;
+  }
+
+  /* Proyectos */
+  .proyectos ul {
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    justify-items: center;
+  }
+
+  .proyectos li {
+    width: 140px;
+    height: auto;
+    padding: 12px;
+  }
+}
+
+
+/* ========================= */
+/* MÓVIL (max-width: 480px) */
+/* ========================= */
+@media (max-width: 480px) {
+
+  /* NAV en columna */
+  nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  nav ul li a {
+    font-size: 15px;
+  }
+
+  header {
+    padding: 10px 0;
+  }
+
+  /* Título */
+  #titulo {
+    padding: 20px 10px;
+  }
+
+  section {
+    width: 98%;
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  h2 {
+    font-size: 19px;
+  }
+
+  p,
+  ul li {
+    font-size: 16px;
+  }
+
+  /* Imagen principal */
+  .img-p img {
+    width: 150px;
+    height: 150px;
+  }
+
+  /* Galería Mailo → 1 columna */
+  .img-m {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .img-m img {
+    width: 150px;
+    height: 150px;
+  }
+
+  /* Proyectos → 1 columna */
+  .proyectos ul {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .proyectos li {
+    width: 100%;
+    max-width: 220px;
+    margin: auto;
+  }
+}
